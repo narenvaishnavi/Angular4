@@ -7,7 +7,6 @@ import gql from 'graphql-tag';
 
 const MAX_EXAMPLE_RECORDS = 1000;
 
-
 @Component({
   selector: 'at-alltimes',
   templateUrl: './alltimes.component.html',
