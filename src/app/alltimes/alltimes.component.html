@@ -45,7 +45,6 @@
       </p-dataTable>
     
       <p-contextMenu #tableContextMenu [model]="contextMenu"></p-contextMenu>
-    
       <p-dialog header="Add New Time"  [(visible)]="displayEntryForm" [width]="500" [modal]="true" [responsive]="true">
         <form class="ui-g" [formGroup]="addEntryForm" (ngSubmit)="saveForm()"> 
           <p-panel  class="ui-g-12" >
