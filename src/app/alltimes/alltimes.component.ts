@@ -34,7 +34,6 @@ export class AlltimesComponent implements OnInit {
   contextMenu: MenuItem[];
 
   recordCount : number;
-
   display: boolean = false;
 
   constructor(private apollo: Apollo, private fb: FormBuilder) { }
