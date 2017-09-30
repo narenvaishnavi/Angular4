@@ -4,6 +4,7 @@
     "version": "1.0.0-beta.31",
     "name": "agile-times"
   },
+  
   "apps": [
     {
       "root": "src",
@@ -12,7 +13,7 @@
         "assets",
         "favicon.ico",
         "manifest.json",
-        "styles.css"
+        "./styles.css"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -31,7 +32,11 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/chart.js/dist/Chart.js"
+        "../node_modules/chart.js/dist/Chart.js",
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/quill/dist/quill.js",
+        "../node_modules/moment/min/moment.min.js",
+        "../node_modules/fullcalendar/dist/fullcalendar.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
